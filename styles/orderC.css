@@ -1,0 +1,154 @@
+/* Reset dan Default Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar dan Header */
+nav {
+    background-color: #3498db; /* Biru solid untuk navbar */
+    padding: 10px 20px;
+}
+
+header.bg-primary {
+    background-color: #3498db; /* Biru solid untuk header */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #e74c3c; /* Merah lembut saat hover */
+}
+
+/* Hero Section - Tanpa warna ijo */
+.hero-section {
+    background-image: url('https://via.placeholder.com/1920x400/3498db/ffffff?text=Laundry+Service');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Service List */
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.service-item {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item h4 {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Order - dengan animasi */
+.btn-order {
+    background: linear-gradient(90deg, #ff7f50, #ff5722); /* Gradient halus oranye */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-order:hover {
+    background: linear-gradient(90deg, #ff5722, #ff7f50); /* Efek hover gradient balik */
+    transform: scale(1.05);
+    color:white
+}
+
+/* Testimonial */
+.testimonial {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonial h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.testimonial p {
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #3498db; /* Biru untuk footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* Service List - Pusatkan Semua Item */
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsif, item tetap rapi */
+    gap: 30px;
+    justify-content: center; /* Pusatkan item di tengah */
+    margin-top: 40px;
+}
+
+.service-item {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item h4 {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}

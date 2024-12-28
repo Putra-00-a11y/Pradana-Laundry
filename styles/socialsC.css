@@ -1,0 +1,101 @@
+/* HERO SECTION */
+.hero-section {
+    background-image: url('https://via.placeholder.com/1920x400/ff7f50/ffffff?text=Join+Us+On+Social+Media');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border-bottom: 5px solid #fff;
+}
+
+/* SOCIAL LINKS STYLING */
+.social-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    transform: scale(1);
+}
+
+.social-link i {
+    color: #555;
+    transition: color 0.4s ease;
+}
+
+.social-link span {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+    transition: transform 0.4s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.social-link:hover i {
+    color: white;
+}
+
+.social-link.instagram {
+    background: linear-gradient(45deg, #e1306c, #f6a1c1);
+    color: #fff;
+}
+
+.social-link.instagram:hover {
+    background: linear-gradient(45deg, #f6a1c1, #e1306c);
+}
+
+.social-link.facebook {
+    background: linear-gradient(45deg, #3b5998, #8b9dc3);
+    color: #fff;
+}
+
+.social-link.facebook:hover {
+    background: linear-gradient(45deg, #8b9dc3, #3b5998);
+}
+
+.social-link.twitter {
+    background: linear-gradient(45deg, #1da1f2, #00b8f4);
+    color: #fff;
+}
+
+.social-link.twitter:hover {
+    background: linear-gradient(45deg, #00b8f4, #1da1f2);
+}
+
+/* ANIMATED TEXT */
+.social-link:hover span {
+    transform: translateY(10px);
+}
+
+/* FOOTER FIXED */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
